@@ -16,18 +16,18 @@ int gcdIter(int x, int y){
 		y = x;
 		x = temp;
 	}
-
+	int t;
 	while (x >= y){
 		if (x%y == 0)
 			return y;
-		int t = y;
+		t = y;
 		y = x%y;
-		x = y;
+		x = t;
 	}
 }
 
 int main(){
-  int ans = gcdIter(4, 10);
+  int ans = gcdIter(14, 11);
   printf("%d\n", ans);
   return 0;
 }

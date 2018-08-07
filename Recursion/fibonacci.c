@@ -23,8 +23,16 @@ unsigned int fibonacciRec(unsigned int n){
 	return fibonacciRec(n-1) + fibonacciRec(n-2);
 }
 
+int gfib(int f0, int f1, int n){
+	if (n == 0)
+		return f0;
+	else if (n == 1)
+		return f1;
+	return gfib(f0, f1, n-1) + gfib(f0, f1, n-2);
+}
+
 int main(){
-	unsigned int f = fibonacci(0);
+	unsigned int f = fibonacci(10);
 	printf("%u\n", f);
 	printf("%d\n", additions);
 	return 0;
