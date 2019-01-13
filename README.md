@@ -1,6 +1,6 @@
 # Algorithms
 
-Python implementation of algorithms from [CLRS] (https://en.wikipedia.org/wiki/Introduction_to_Algorithms) book.
+Python implementation of algorithms from [CLRS](https://en.wikipedia.org/wiki/Introduction_to_Algorithms) book.
 
 ### Part 1: Divide and Conquer, Sorting and Searching, and Randomized Algorithms
 
